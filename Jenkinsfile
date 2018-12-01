@@ -7,6 +7,7 @@ pipeline {
   }
   environment {
     DEPLOY_NAMESPACE = "jx-staging"
+    CHART_REPOSITORY = "https://almerico.github.io/helmrepo"
   }
   stages {
     stage('Validate Environment') {
