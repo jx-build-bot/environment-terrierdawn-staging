@@ -26,6 +26,8 @@ pipeline {
       steps {
         container('maven') {
           dir('env') {
+            sh 'cat values.yaml'
+            sh 'ls'
             sh 'jx step helm apply'
           }
         }
