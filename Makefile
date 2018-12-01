@@ -1,5 +1,5 @@
-CHART_REPO := http://jenkins-x-chartmuseum:8080
-CHART_REPOSITORY := https://almerico.github.io/helmrepo/
+#CHART_REPO := http://jenkins-x-chartmuseum:8080
+CHART_REPO := https://almerico.github.io/helmrepo
 DIR := "env"
 NAMESPACE := "jx-staging"
 OS := $(shell uname)
