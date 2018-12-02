@@ -12,4 +12,4 @@ dependencies:
   version: 2.3.82
 - name: activiti-cloud-audit
   repository: https://almerico.github.io/helmrepo
-  version: 7.0.10  
+  version: 7.0.12  
