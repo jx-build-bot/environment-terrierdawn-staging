@@ -1,7 +1,7 @@
 dependencies:
-- name: activiti-cloud-full-example
-  repository: https://almerico.github.io/helmrepo
-  version: 0.0.45
+#- name: activiti-cloud-full-example
+#  repository: https://almerico.github.io/helmrepo
+#  version: 0.0.45
 - alias: expose
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
@@ -10,3 +10,6 @@ dependencies:
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
   version: 2.3.82
+- name: activiti-cloud-audit
+  repository: https://almerico.github.io/helmrepo
+  version: 7.0.11  
