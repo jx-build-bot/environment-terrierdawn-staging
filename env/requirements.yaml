@@ -1,7 +1,7 @@
 dependencies:
 - name: activiti-cloud-acceptance-tests
   repository: https://almerico.github.io/helmrepo
-  version: 7.0.16
+  version: 7.0.17
 - name: activiti-cloud-full-example
   repository: https://almerico.github.io/helmrepo
   version: 0.0.60
